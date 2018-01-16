@@ -1,0 +1,22 @@
+Task 				
+Q.1  What is Git?
+Ans: Git is a software that is used for Version Control. It is free and open source. Git is, first and foremost, a version control system designed to handle everything from small to very large projects with speed and efficiency.
+Q.2 What is difference  between Git and SVN ?
+Ans: Git is a distributed VCS; SVN is a non-distributed VCS. Git has a centralized server and repository; SVN does not have a centralized server or repository.  Git does not have the global revision number feature like SVN has. Git has better content protection than SVN.
+Q.3 Write a command to commit your work in Git?
+Ans: The git pull command combines two other commands, git fetch and git merge . When doing a fetch the resulting commits are stored as ... Push your branch. When working with feature branches on a team, it is typically not appropriate to merge your own code into master. Although this is up to your team.
+
+Q.4Create a repository with your name with unique roll number in GitHub?
+Ans: Owner:Sarah iqbal ashraf 182.
+Q.5 What is tha `Staging area` or `index` in Git?
+Ans: Staging is a step before the commit process in git. That is, a commit in git is performed in two steps: staging and actual commit. As long as a changeset is in the staging area, git allows you to edit it as you like (replace staged files with other versions of staged files, remove changes from staging, etc. One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems, Git branches are cheap and easy to merge.
+Q.6 What is the Git clone?
+Ans: The git clone command copies an existing Git repository. This is sort of like SVN checkout, except the “working copy” is a full-fledged Git repository—it has its own history, manages its own files, and is a completely isolated environment from the original repository.
+Q.7 What is the command to delete branch?
+Ans: To force the delete to happen, you will need to use -D (uppercase D). To delete a branch forcibly, use -D instead of -d . I would suggest you use the 2nd way as it is more intuitive. It prunes and deletes remote-tracking branches from a git branch -r listing.
+Q.8 Explain the architecture of Git in your own words?
+Ans: The Git Three-Tree Architecture. Git implements a three-tree architecture (a “tree” in this context refers to a directory structure and files).Keep in mind that the Git re-po is defined by all files that sit in the .git folder.
+Q.9 How to resolve conflicts in Git?
+Ans: The solution is very simple. git checkout <filename> tries to check out file from the index, and therefore fails on merge. What you need to do is (i.e. checkout a commit):. To checkout your own version you can use one of: git checkout HEAD -- <filename>. or git checkout --ours -- <filename>. or git show .
+Q.10 Name the different vendors that are working on VCS?
+Ans:Cisco,Stem,Primus Power,GreenSmith.
